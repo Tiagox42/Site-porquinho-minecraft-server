@@ -11,4 +11,4 @@ function status1(){
         document.getElementById("i2").innerHTML = "&#128531";
         console.log(stastusInfo)
     }
-    }, 100)}
+    }, 1000)}
