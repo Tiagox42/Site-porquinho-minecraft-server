@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    height: 100%;
+    background-image: url('/img/fundo2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.tamanho{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.logo {
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.logo img{
+    width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.links li{
+    display: inline-block;
+    padding-right: 18px;
+}
+
+.links ul{
+    text-align: center;
+    list-style-type: none;
+}
+
+.links a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.links a:hover{
+    color: tomato;
+}
+
+.contador{
+    text-align: center;
+}
+
+.contador p{
+    color: white;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.status{
+    color: greenyellow;
+    font-weight: bold;
+}
+
+.players{
+    color: rgb(224, 141, 16);
+    font-weight: bold;
+}
