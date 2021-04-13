@@ -13,6 +13,7 @@ html,body{
 .tamanho{
     max-width: 1400px;
     margin: 0 auto;
+    min-height: 91.6%;
 }
 
 .logo {
@@ -67,4 +68,15 @@ html,body{
 .players{
     color: rgb(224, 141, 16);
     font-weight: bold;
+}
+
+footer {
+    background-color: rgb(51, 51, 51);
+}
+
+footer p{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding: 20px;
 }
