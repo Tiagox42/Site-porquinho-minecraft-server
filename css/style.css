@@ -4,16 +4,20 @@
 }
 
 html,body{
-    height: 100%;
+    min-height: 100%;
     background-image: url('../img/fundo2.jpg');
     background-size: cover;
+    background-position: bottom;
     background-repeat: no-repeat;
+}
+
+.clear{
+    clear: both;
 }
 
 .tamanho{
     max-width: 1400px;
     margin: 0 auto;
-    min-height: 91.6%;
 }
 
 .logo {
@@ -22,7 +26,7 @@ html,body{
 }
 
 .logo img{
-    width: 150px;
+    width: 350px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -72,6 +76,7 @@ html,body{
 
 footer {
     background-color: rgb(51, 51, 51);
+    margin-bottom: -16px;
 }
 
 footer p{
@@ -79,4 +84,78 @@ footer p{
     color: white;
     font-weight: bold;
     padding: 20px;
+}
+
+aside {
+    float: right;
+    padding: 40px 20px 0 0;
+}
+
+.tamanho2{
+    float: left;
+    min-width: 72%;
+    max-width: 72%;
+    min-height: 500px;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.corpo{
+    min-height: 800px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.info1{
+}
+
+.extras{
+    background-color: rgba(70, 68, 68, 0.267);
+    border-radius: 20px;
+    max-width: 90%;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.caixa{
+    display: inline-block;
+}
+
+.extras nav{
+    padding: 30px;
+}
+
+.extras li{
+}
+
+.extras ul{
+    list-style-type: none;
+}
+
+.extras a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.extras a:hover{
+    color: tomato;
+}
+
+.linha-vertical {
+    height: 120px;/*Altura da linha*/
+    border-left: 2px solid;/* Adiciona borda esquerda na div como ser fosse uma linha.*/
+    color: rgb(70, 71, 71);
+    display: inline-block;
+  }
+
+.extras img{
+    width: 200px;
+    display: inline-block;
+    margin-top: -100px;
+    margin-left: 200px;
 }
